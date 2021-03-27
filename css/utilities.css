@@ -88,7 +88,7 @@
 .bg-light,
 .btn-light {
   background-color: var(--light-color);
-  color: #fff;
+  color: rgb(49, 49, 49);
 }
 
 /* ----------- Texts Stylings ------------ */
