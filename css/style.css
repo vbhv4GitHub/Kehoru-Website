@@ -193,7 +193,7 @@ img {
   transform: translateY(-15px);
 }
 
-.languages .card h4{
+.languages .card h4 {
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -202,4 +202,26 @@ img {
 
 .footer .social a {
   margin: 0 10px;
+}
+
+/* ----------------- Tablets and under ----------------------- */
+
+@media (max-width: 768px) {
+}
+
+/* ----------------- Mobiles ----------------------- */
+
+@media (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 }
